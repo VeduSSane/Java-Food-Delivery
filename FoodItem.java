@@ -1,8 +1,8 @@
 class FoodItem {
   String name ;
-  float price ;
+  double price ;
 
-    FoodItem( String name , float price ) {
+    FoodItem( String name , double price ) {
       this.name = name;
       this.price = price;
     }//end of constructor
