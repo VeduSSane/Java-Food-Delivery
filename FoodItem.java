@@ -1,18 +1,17 @@
-class FoodItem {
-  String name ;
-  double price ;
+class FoodItem 
+{
+    String name;
+    double price;
+//constructor overloading
+    FoodItem(String name, float price) 
+  {
+        this.name = name;
+        this.price = price;
+  }
 
-    FoodItem( String name , double price ) {
-      this.name = name;
-      this.price = price;
-    }//end of constructor
-
-      setname() {
-        return name;
-      }//end of setter name
-  
-      setprice() {
-        return price;
-      }//end of setter price
-  
-}//end of class
+    FoodItem(String name, double price) 
+  {
+        this.name = name;
+        this.price = price;
+  }
+}//End of class FoodItem
