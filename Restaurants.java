@@ -12,7 +12,7 @@ class Restaurant {
   return name;
   }//end of restaurnat name settee
 
-     FoodItem[] menu = new FoodItem[10];
+     FoodItem[] menu = new FoodItem[4];
     int count = 0;
 
 }//end of class restaurnat
