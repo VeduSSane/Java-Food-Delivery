@@ -16,8 +16,8 @@ class FoodItem
         this.price = price;
     }
 
-    // UI METHOD (MENU BOX)
-    void showMenuHeader()
+   
+    FoodItem()
     {
         System.out.println();
         System.out.println("+--------------------------------------+");
