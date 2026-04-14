@@ -8,19 +8,15 @@ class Restaurant {
     // Constructor
     Restaurant(String name) {
         this.name = name;
-    }
 
-    // Getter
-    String getName() {
-        return name;
-    }
-
-    // UI Banner Method (BOX STYLE)
-    void showRestaurantHeader() {
-
+        // UI PRINT INSIDE CONSTRUCTOR (NO VOID METHOD USED)
         System.out.println();
         System.out.println("+------------------------------------------------------------+");
         System.out.println("|             SELECT YOUR FAVOURITE RESTAURANT              |");
         System.out.println("+------------------------------------------------------------+");
+    }
+
+    String getName() {
+        return name;
     }
 }
