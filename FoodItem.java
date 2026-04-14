@@ -16,11 +16,12 @@ class FoodItem
         this.price = price;
     }
 
-    // UI METHOD (MENU HEADER)
+    // UI METHOD (MENU BOX)
     void showMenuHeader()
     {
-        System.out.println("\n----------------------------------------------------------------------------------------------------");
-        System.out.println("                                           MENU");
-        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println();
+        System.out.println("+--------------------------------------+");
+        System.out.println("|                MENU                 |");
+        System.out.println("+--------------------------------------+");
     }
 }
