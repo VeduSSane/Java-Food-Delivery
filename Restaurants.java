@@ -9,7 +9,7 @@ class Restaurant {
     Restaurant(String name) {
         this.name = name;
 
-        // UI PRINT INSIDE CONSTRUCTOR (NO VOID METHOD USED)
+        
         System.out.println();
         System.out.println("+------------------------------------------------------------+");
         System.out.println("|             SELECT YOUR FAVOURITE RESTAURANT              |");
