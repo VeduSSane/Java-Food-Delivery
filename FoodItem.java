@@ -2,16 +2,25 @@ class FoodItem
 {
     String name;
     double price;
-    //constructor overloading
+
+    // Constructor overloading
     FoodItem(String name, float price) 
-	{
+    {
         this.name = name;
         this.price = price;
     }
 
     FoodItem(String name, double price) 
-	{
+    {
         this.name = name;
         this.price = price;
     }
-}//End of class FoodItem
+
+    // UI METHOD (MENU HEADER)
+    void showMenuHeader()
+    {
+        System.out.println("\n----------------------------------------------------------------------------------------------------");
+        System.out.println("                                           MENU");
+        System.out.println("----------------------------------------------------------------------------------------------------");
+    }
+}
