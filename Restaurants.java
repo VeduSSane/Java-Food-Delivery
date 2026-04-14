@@ -10,8 +10,16 @@ class Restaurant {
         this.name = name;
     }
 
-    // Getter method
+    // Getter
     String getName() {
         return name;
+    }
+
+    // UI Banner Method (ONLY ADDED FOR DISPLAY)
+    void showRestaurantHeader() {
+
+        System.out.println("\n----------------------------------------------------------------------------------------------------");
+        System.out.println("                            SELECT YOUR FAVOURITE RESTAURANT");
+        System.out.println("----------------------------------------------------------------------------------------------------");
     }
 }
