@@ -15,11 +15,12 @@ class Restaurant {
         return name;
     }
 
-    // UI Banner Method (ONLY ADDED FOR DISPLAY)
+    // UI Banner Method (BOX STYLE)
     void showRestaurantHeader() {
 
-        System.out.println("\n----------------------------------------------------------------------------------------------------");
-        System.out.println("                            SELECT YOUR FAVOURITE RESTAURANT");
-        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println();
+        System.out.println("+------------------------------------------------------------+");
+        System.out.println("|             SELECT YOUR FAVOURITE RESTAURANT              |");
+        System.out.println("+------------------------------------------------------------+");
     }
 }
